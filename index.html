@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="Polyadmin" ng-controller="AppCtrl" lang="en">
+<!--[if lte IE 10]>
+You are using an UNSUPPORTED BROWSER, please consider updating
+<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title ng-bind="pageTitle"></title>
+    <meta name="viewport" content="width=device-width, initial-scale = 1, maximum-scale=1, user-scalable=no">
+    <base href="/">
+    <link rel='shortcut icon' type='image/x-icon' href='app/assets/favicon.png' />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/angular-loading-bar/0.9.0/loading-bar.min.css" />
+    <link rel="stylesheet" href="dist/styles/styles.css" />
+</head>
+
+<body ng-cloak="true">
+
+    <ui-view></ui-view>
+
+    <!-- Libraries -->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular-animate.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-loading-bar/0.9.0/loading-bar.min.js"></script>
+
+    <script src="dist/js/bundle.js"></script>
+
+</body>
+
+</html>
